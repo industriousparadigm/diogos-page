@@ -7,7 +7,7 @@ export default function Home() {
       </div>
 
       {/* Content ? */}
-      <div className="mb-auto mt-8 flex gap-4 flex-col">
+      <div className="w-full mb-auto mt-8 flex gap-4 flex-col">
         <p>I am a Portuguese techie, father and student of all things (humans, knowledge, myself).</p>
 
         <p>

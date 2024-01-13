@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Route Reports",
+        "description": "Tech tools for road and rail maintenance",
+        "website": "https://routereports.com",
+        "imageLink": "/rr-logo.png",
+        "startDate": "2022",
+        "endDate": "2023",
+        "role": "Senior engineer & team lead",
+        "bullets": [
+            "🛠️ React, Node, AWS, Computer vision, Map tech, Postgres, Python",
+            "🗺️ Technical planning",
+            "👫 People & product management"
+        ]
+    },
+    {
+        "name": "Trinny London",
+        "description": "Beauty & skincare shop with e-commerce platform",
+        "website": "https://trinnylondon.com",
+        "imageLink": "/tl-logo.png",
+        "startDate": "2020",
+        "endDate": "2021",
+        "role": "Full stack engineer",
+        "bullets": [
+            "🛠️ React, Node, various clouds",
+            "👷 API design",
+            "👩‍🦰 Growing tech team (20 became 60 over this time)"
+        ]
+    },
+    {
+        "name": "Stylist",
+        "description": "Magazine for women with physical + online presence",
+        "website": "https://stylist.co.uk",
+        "imageLink": "/stylist-logo.png",
+        "startDate": "2019",
+        "endDate": "2020",
+        "role": "Frontend developer",
+        "bullets": [
+            "🛠️ React, Node, Serverless, PHP"
+        ]
+    }
+]

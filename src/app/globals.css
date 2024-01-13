@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  a {
+    @apply text-blue-600;
+    /* This makes links blue and underlined by default */
+    @apply hover:text-blue-800 hover:underline;
+    /* This changes the text color on hover and removes the underline */
+  }
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

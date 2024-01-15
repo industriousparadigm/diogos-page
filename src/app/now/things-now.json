@@ -1,0 +1,33 @@
+[
+    {
+        "name": "💼 In between jobs",
+        "description": "Introspection, wandering and looking for the next challenge",
+        "website": "https://stylist.co.uk",
+        "paragraphs": [
+            "At the end of 2023, the startup I was working with missed financial goals. It had to restructure dramatically and I was laid off.",
+            "While I am sad for the loss (I loved my team and what we were trying to do, and had nice income), I can't help but feel excited for this opportunity I would not otherwise have.",
+            "What is next for me? I loved the startup life of trying to fight the odds and building something new in a tight-knit team environment."
+        ]
+    },
+    {
+        "name": "🏠 Hometrail",
+        "description": "React Native prototype app for end-to-end home rental management",
+        "website": "https://trinnylondon.com",
+        "paragraphs": [
+            "This is a project I am developing with an entrepeneurial friend.",
+            "Feedback from VCs he has spoken to indicates that a prototype to demo with could bolster his chances of getting funded.",
+            "For me this is an awesome way to get cozy with React Native while also flexing my product muscle: what features are absolutely necessary in the prototype? What outcomes does it propose to achieve?",
+            "I love a chance to delete things and build the minimum!"
+        ]
+    },
+    {
+        "name": "🎾 Computer vision: Padel",
+        "description": "Trying to detect stuff in Padel matches",
+        "paragraphs": [
+            "I play this sport called Padel, it's like tennis but played in teams of 2 versus 2, in a smaller court with walls all around it.",
+            "Thing is, although I play loads, sometimes it's hard to know what I am doing wrong and how to improve.",
+            "It got me thinking, what if I film my games and then explore computer vision more deeply by trying to use it to get insights?"
+        ],
+        "website": "https://routereports.com"
+    }
+]

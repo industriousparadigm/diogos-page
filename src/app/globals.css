@@ -9,6 +9,23 @@
     @apply hover:text-blue-800 hover:underline;
     /* This changes the text color on hover and removes the underline */
   }
+        h1 {
+          @apply text-3xl font-bold;
+        }
+    
+        h2 {
+          @apply text-2xl font-bold;
+        }
+    
+        h3 {
+          @apply text-xl font-bold;
+        }
+        }
+    
+        .clean-link {
+          @apply text-current no-underline;
+          @apply hover:text-current hover:no-underline;
+          /* This will apply the current text color and remove underline */
 }
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,13 +33,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+*/
 
 body {
   color: rgb(var(--foreground-rgb));

@@ -13,8 +13,12 @@ export default function Home() {
         </p>
 
         <p>
-          I hold a BA in Filmmaking, played poker professionally, lived in Portugal, UK, Switzerland and France, and I
-          read books daily.
+          I hold a BA in Filmmaking, played poker professionally, <Link href="/where">lived</Link> in Portugal, UK,
+          Switzerland and France, and I read books daily.
+        </p>
+
+        <p>
+          Wondering what am I up to <Link href="/now">these days</Link>?
         </p>
       </div>
       <div className="relative w-1/3">

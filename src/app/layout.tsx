@@ -1,26 +1,30 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import { Inter, Playfair_Display, Open_Sans } from "next/font/google"
+import "mapbox-gl/dist/mapbox-gl.css"
+import "./globals.css"
+import Link from "next/link"
+import Head from "next/head"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
+const playfair = Playfair_Display({ subsets: ["latin"] })
+const openSans = Open_Sans({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Diogos page",
   description: "A snapshot of what I am all about",
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={playfair.className}>
         <div className="flex flex-col h-screen">
           {/* Header Section */}
           <header className="flex items-center justify-between p-4">
-            <h1 className="text-4xl font-bold">Diogo Costa</h1>
+            <Link className="clean-link" href="/">
+              <h1 className="text-5xl font-bold">Diogo Costa</h1>
+            </Link>
+
             <div className="flex-grow">
               <div className="flex justify-center space-x-1">
                 {/* Central Dots */}
@@ -42,8 +46,8 @@ export default function RootLayout({
           </header>
 
           {/* Main Content Section */}
-          <main className="flex-grow flex justify-center items-center p-4">
-            <div className="bg-white w-full h-full shadow-lg rounded-lg p-8 lg:flex">{children}</div>
+          <main className="flex-grow flex justify-center items-center p-4 pt-0">
+            <div className="bg-white w-full h-full shadow-lg rounded-lg p-8 pb-0 lg:flex">{children}</div>
           </main>
         </div>
       </body>

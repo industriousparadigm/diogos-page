@@ -84,8 +84,8 @@ export default function Home() {
         <h2>The human</h2>
         <p>
           I try to be a positive role model for my children. Be open to new relationships and cultivate existing ones.
-          Put myself in people's shoes, use empathy to really get what they feel and do. I love a deep discussion and
-          always assume there is something more to learn.
+          Put myself in people&apos;s shoes, use empathy to really get what they feel and do. I love a deep discussion
+          and always assume there is something more to learn.
         </p>
         <p>One good habit I have is reading a lot. I manage 2-3 books a month.</p>
         <p>

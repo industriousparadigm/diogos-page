@@ -1,0 +1,5 @@
+config:
+  aws:accessKey: AKIAVRUVP3ECFE3PIVPJ
+  aws:region: eu-west-2
+  aws:secretKey:
+    secure: AAABAP+AjZl6jL5QkUNY+ykseAbCjFk0VXfmkt4fBeDDZINM6Hlq/lcPwLJoJobf9YP0JaHtHbDJOQin9xKNfVSC8m/T2Q8l

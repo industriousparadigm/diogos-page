@@ -1,0 +1,17 @@
+{
+  "name": "diogos-website-infra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/aws": "^6.18.0",
+    "@pulumi/awsx": "^2.4.0",
+    "@pulumi/pulumi": "^3.101.1"
+  }
+}

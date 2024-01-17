@@ -1,0 +1,3 @@
+name: diogos-page-infra
+runtime: nodejs
+description: infra as code to deploy diogos page as a dockerized nextjs app to aws

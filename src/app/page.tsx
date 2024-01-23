@@ -1,5 +1,5 @@
+import ExternalLink from "@/components/external-link"
 import ImageGallery from "@/components/image-gallery"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Home() {
@@ -32,10 +32,6 @@ export default function Home() {
       alt: "Diogo with Red Cross vest",
     },
     {
-      src: "https://res.cloudinary.com/thunder-fusion/image/upload/q_50/v1705393559/ynwg3m9pufaglihwp8ry.jpg",
-      alt: "Diogo in a london phone booth",
-    },
-    {
       src: "https://res.cloudinary.com/thunder-fusion/image/upload/q_50/v1566920515/e5mfehxuylalmfnqrrfm.jpg",
       alt: "Diogo with Cristiano Ronaldo",
     },
@@ -47,53 +43,52 @@ export default function Home() {
 
   return (
     <>
-      <div className="space-y-6">
-        <h1>Diogo Costa</h1>
+      <Link className="clean-link" href="/">
+        <h1 className="text-5xl">Diogo Costa</h1>
+      </Link>
 
-        <h2>In a nutshell</h2>
-        <p>
-          I am a Portuguese techie, father and student of all things (humans, knowledge, myself). I lived in UK,
-          Switzerland and France, and now I am in Portugal.
-        </p>
+      <h2>In a nutshell</h2>
+      <p>
+        I am a Portuguese techie, father and student of all things (humans, knowledge, myself). I lived in UK,
+        Switzerland and France, and now I am in Portugal.
+      </p>
 
-        {/* <p>
+      {/* <p>
           Wondering what am I up to <Link href="/now">these days</Link>?
         </p> */}
 
-        <ImageGallery images={nutshellImages} />
+      <ImageGallery images={nutshellImages} />
 
-        <h2>The professional</h2>
-        <p>For the past 5 years I have been in tech, and specifically web development.</p>
+      <h2>The professional</h2>
+      <p>For the past 5 years I have been in tech, and specifically web development.</p>
 
-        <p>
-          My latest role had me build and lead a team at{" "}
-          <a href="https://routereports.com" target="_blank" rel="noopener noreferrer">
-            Route Reports
-          </a>
-          , a startup in road and rail maintenance. We went deep into map tech, data pipelines, product management and
-          computer vision.
-        </p>
+      <p>
+        My latest role had me build and lead a team at{" "}
+        <ExternalLink href="https://routereports.com">Route Reports</ExternalLink>, a startup in road and rail
+        maintenance. We went deep into map tech, data pipelines, product management and computer vision.
+      </p>
 
-        <p>Past me has seen varying measures of professional success as a movie extra, poker pro and video producer.</p>
+      <p>Past me has seen varying measures of professional success as a movie extra, poker pro and video producer.</p>
 
-        <p>
-          Do get in touch if you have a project that attempts to change things for the better, is hard to nail and needs
-          people who are all in.
-        </p>
+      <p>
+        Do get in touch if you have a project that attempts to change things for the better, is hard to nail and needs
+        people who are all in.
+      </p>
 
-        <h2>The human</h2>
-        <p>
-          I try to be a positive role model for my children. Be open to new relationships and cultivate existing ones.
-          Put myself in people&apos;s shoes, use empathy to really get what they feel and do. I love a deep discussion
-          and always assume there is something more to learn.
-        </p>
-        <p>One good habit I have is reading a lot. I manage 2-3 books a month.</p>
-        <p>
-          I get my movement/fresh air needs from long walks outside while listening to podcasts, and I play Padel on the
-          regular - find this an excellent way to push for improvement and keep myself humble!
-        </p>
-        <ImageGallery images={humanImages} />
-      </div>
+      <h2>The human</h2>
+      <p>
+        I try to be a positive role model for my children. Be open to new relationships and cultivate existing ones. Put
+        myself in people&apos;s shoes, use empathy to really get what they feel and do. I love a deep discussion and
+        always assume there is something more to learn.
+      </p>
+      <p>
+        One good habit I have is <Link href="/read">reading</Link>. I manage 2 books a month on average.
+      </p>
+      <p>
+        I get my movement/fresh air needs from long walks outside while listening to podcasts, and I play Padel on the
+        regular - find this an excellent way to push for improvement and keep myself humble!
+      </p>
+      <ImageGallery images={humanImages} />
     </>
   )
 }

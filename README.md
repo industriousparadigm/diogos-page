@@ -14,6 +14,7 @@ Tailwind: very thorough inline CSS classes. Easy to manage and implement respons
 Cloudinary: host images with a generous free tier. Helps me keep my images out of my build.
 Mapbox: display an interactive map in my page.
 DeckGL: helps me easily manage data on my map in a "reacty" way.
+Notion API: using this to write my book reviews, blog-like posts and anything long form enough that I don't want to write in my JSX.
 
 ## Deployment
 

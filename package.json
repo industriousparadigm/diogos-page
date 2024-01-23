@@ -13,6 +13,7 @@
     "@deck.gl/layers": "^8.9.33",
     "@deck.gl/react": "^8.9.33",
     "@heroicons/react": "^2.1.1",
+    "@notionhq/client": "^2.2.14",
     "mapbox-gl": "^3.0.1",
     "maplibre-gl": "^3.6.2",
     "next": "14.0.4",
